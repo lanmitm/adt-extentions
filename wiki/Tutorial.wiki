@@ -1,27 +1,40 @@
 #summary Tutorial.
 
+<wiki:toc max_depth="2" />
 = Introduction =
 
-Add your content here.
+adt-extentions is en extention to ADT, it provider wizards to new Acitivity,Service,BroadcaseReceiver,ContentProvider in Eclipse.
 
+= Version =
+Based on eclipse version.
+
+3.5.0 _(Oct,2011)_ first version.
 
 = Requirement=
 
   * JDK/JRE 1.5 or higher
   * Eclipse 3.5 or higher(recommend)
-  
-  *Note:Eclipse 3.4 lower(Un-tested)*
+
+Note: Eclipse 3.5 + JDK 1.5 is developer environment.   
+
+= Test =
+
+ * jdk 1.5 + eclipse 3.5 Win(32bit) OS
+ * jre 1.6 + eclipse 3.6 Linux(64bit) OS
 
 
 = Install =
 == Local Archive ==
-  * Download update-site archive
-  * Click Help->Install New Software... in eclipse to open install page
-  * Click "Add..." button open add site dialog
-  * Click "Archive..." button to select .zip file.
-  * Click "OK" back to install page
-  * Select Adt-extention Feature
-  * Next step...
+ # Download plugin update site archive
+ # Click *Help->Install New Software...* in eclipse to open install page
+ # Click *Add...* button open add site dialog
+ # Click *Archive...* button to select downloaded .zip file.
+ # Click *OK* back to install page
+ # Select Adt-extention Feature
+ # Read and accept the license agreements, then click *Finish*.
+
+Note: If you get a security warning saying that the authenticity or validity of the software can't be established, click *OK*.
+ # When the installation completes, restart Eclipse. 
 
 = Tutorial =
   == New Activity ==
@@ -37,3 +50,5 @@ Add your content here.
  == New Provider ==
   * See New Activity steps to open New Provider wizard page
   * Input authorities for provider
+
+More tutorial please click [Screenshoot]
