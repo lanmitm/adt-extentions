@@ -1,3 +1,6 @@
+<wiki:toc max_depth="3" />
+#sidebar 内容
+
 =简介=
 
 adt-extentions是ADT插件的扩展补丁，它提供了在Android工程中快速创建Acitivity,Service,BroadcaseReceiver,ContentProvider的功能。
@@ -19,47 +22,46 @@ Eclipse版本3.5或更高
 
 =测试环境=
 
-*jdk 1.5 + eclipse 3.5 Win32系统
-*jre 1.6 + eclipse 3.6 Linux64系统
+* jdk 1.5 + eclipse 3.5 Win32系统
+* jre 1.6 + eclipse 3.6 Linux64系统
 
 
 =安装方式=
 
 ==本地档案==
 
-    * 请至http://code.google.com/p/adt-extentions/downloads/list下载本地站点压缩包
-    * 在Eclipse中点击菜单Help->Install New Software... 打开安装界面
-    * 点击"Add..." 按钮打开添加站点对话框
-    * 点击"Archive..." 按钮选择下载的.zip文件
-    * 点击"OK" 确定，并返回到安装界面
-    * 在下边的Feature区域选择Adt-extention Feature
-    * 点击“Next“
-    * 阅读并且同意license许可, 然后点击“Finish“开始安装
-	注: 如果在安装过程中弹出未签名的插件，是否继续安装，点击“OK“
-	* 安装完成后，弹出重启对话框，点击“Restart Now"重启Eclipse以使安装生效
+# 请至http://code.google.com/p/adt-extentions/downloads/list下载本地站点压缩包
+# 在Eclipse中点击菜单Help->Install New Software... 打开安装界面
+# 点击"Add..." 按钮打开添加站点对话框
+# 点击"Archive..." 按钮选择下载的.zip文件
+# 点击"OK" 确定，并返回到安装界面
+# 在下边的Feature区域选择Adt-extention Feature
+# 点击“Next“
+# 阅读并且同意license许可, 然后点击“Finish“开始安装
+注: 如果在安装过程中弹出未签名的插件，是否继续安装，点击“OK“
+# 安装完成后，弹出重启对话框，点击“Restart Now"重启Eclipse以使安装生效
 
 
 =使用=
 
 ==新建Acitity/Service/Receiver==
 
-    * 右键点击一个包，并在弹出的菜单中选择"New->Others"。
-    * 选择Android目录下的New Activity(如果在Java透视图中，New Activity将直接出现在弹出的菜单中)，打开向导页。
-    * 点击"with super suffix"复选框给类名添加父类的后缀(如添加Activity作为后缀)。
-    * 选择想要生成的方法。
-    * 点击"Add..."来添加系统action或category。
-    * 点击"Remove..."删除选择选的action或category。
-    * 点击action或category表格右键菜单中的"Add custom"来添加自定义的action或category。
-    * 点击"Up/Down"来排序所选的action或category。
-    * 双击action或category表格中的行，可以进行编辑。 
+# 右键点击一个包，并在弹出的菜单中选择"New->Others"。
+# 选择Android目录下的New Activity(如果在Java透视图中，New Activity将直接出现在弹出的菜单中)，打开向导页。
+# 点击"with super suffix"复选框给类名添加父类的后缀(如添加Activity作为后缀)。
+# 选择想要生成的方法。
+# 点击"Add..."来添加系统action或category。
+# 点击"Remove..."删除选择选的action或category。
+# 点击action或category表格右键菜单中的"Add custom"来添加自定义的action或category。
+# 点击"Up/Down"来排序所选的action或category。
+# 双击action或category表格中的行，可以进行编辑。 
 
-==新建ContentProvider==
+== 新建ContentProvider ==
 
-    * 右键点击一个包，并在弹出的菜单中选择"New->Others"。
-    * 选择Android目录下的New Provider(如果在Java透视图中，New Provider将直接出现在弹出的菜单中)，打开向导页。
-    * 输入ContentProvider名称及authorities
-    * 点击“Finish“完成
+# 右键点击一个包，并在弹出的菜单中选择"New->Others"。
+# 选择Android目录下的New Provider(如果在Java透视图中，New Provider将直接出现在弹出的菜单中)，打开向导页。
+# 输入ContentProvider名称及authorities
+# 点击“Finish“完成
 
 更多使用请参考[Screenshot]快照 
 
-<wiki:toc max_depth="3" />
