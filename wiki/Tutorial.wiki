@@ -51,4 +51,4 @@ Note: If you get a security warning saying that the authenticity or validity of 
   * See New Activity steps to open New Provider wizard page
   * Input authorities for provider
 
-More tutorial please click [Screenshoot]
+More tutorial please click [Screenshot]
