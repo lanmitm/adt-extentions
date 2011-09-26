@@ -27,6 +27,15 @@ Eclipse版本3.5或更高
 
 =安装方式=
 
+==在线安装==
+ # 在Eclipse中点击菜单Help->Install New Software... 打开安装界面
+ # 添加或直接输入站点http://melord.info/eclipse/3.5
+ # 在下边的Feature区域选择Adt-extention Feature
+ # 点击“Next“
+ # 阅读并且同意license许可, 然后点击“Finish“开始安装
+ 注: 如果在安装过程中弹出未签名的插件，是否继续安装，点击“OK“
+ # 安装完成后，弹出重启对话框，点击“Restart Now"重启Eclipse以使安装生效
+ 
 ==本地档案==
 
  # 请至http://code.google.com/p/adt-extentions/downloads/list下载本地站点压缩包
