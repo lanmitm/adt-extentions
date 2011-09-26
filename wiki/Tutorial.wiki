@@ -24,6 +24,17 @@ Note: Eclipse 3.5 + JDK 1.5 is developer environment.
 
 
 = Install =
+
+== Install online ==
+ # Download update-site archive
+ # Click Help->Install New Software... in eclipse to open install page
+ # Add site or input http://melord.info/eclipse/3.5 directly
+ # Select Adt-extention Feature
+ # Read and accept the license agreements, then click *Finish*.
+
+Note: If you get a security warning saying that the authenticity or validity of the software can't be established, click *OK*.
+ # When the installation completes, restart Eclipse. 
+ 
 == Local Archive ==
  # Download plugin update site archive
  # Click *Help->Install New Software...* in eclipse to open install page
